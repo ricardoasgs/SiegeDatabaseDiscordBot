@@ -23,15 +23,13 @@ client.on("message", async msg => {
     );
 
     const rank = seasons.data.seasons.wind_bastion.regions.ncsa[0].rank;
-    const rankName = rankSwitch(rank);
+    const rankImage = rankSwitch(rank);
 
     const embed = new Discord.RichEmbed()
       .setTitle("Ranking Rainbow six Siege")
       .setColor(0xff0000)
       .setDescription(`O Rank Atual de ${nickname} é:`)
-      .setThumbnail(
-        `https://cdn.r6stats.com/seasons/rank-imgs/${rankName}.png`
-      );
+      .setThumbnail(rankImage);
 
     msg.channel.send(embed);
   } else {
