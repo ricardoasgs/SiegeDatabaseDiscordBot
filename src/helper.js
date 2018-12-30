@@ -19,7 +19,7 @@ exports.rankSwitch = rank => {
     case 9:
       return "https://i.imgur.com/D36ZfuR.jpg";
     case 10:
-      return "https://i.imgur.com/D36ZfuR.jpg";
+      return "https://i.imgur.com/m8GToyF.jpg";
     case 11:
       return "https://i.imgur.com/EswGcx1.jpg";
     case 12:
